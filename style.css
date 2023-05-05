@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    border: 15px groove green;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.first{
+    border: 8px solid red;
+    border-radius: 40px;
+    width: 30%;
+    height: 20vh;
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+.second{
+    border: 8px solid red;
+    border-radius: 40px;
+    width: 35%;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    word-spacing: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 25px;
+    margin-left: -25vh;
+    position: relative;
+    right: 12%;
+    top: 30px;
+}
+.third{
+    border: 8px solid red;
+    border-radius: 30px;
+    width: 22%;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    margin-right: 4vh;
+    box-sizing: border-box;
+
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    border: 8px solid grey;
+    border-radius: 60%;
+    font-family: Perpetua Titling MT;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    background:linear-gradient(to left, cyan, white, skyblue, white);
+    margin-top: -500px;
+    margin-left: 150px;
+    text-decoration: underline;
+    font-style: italic;
+}
+hr{
+    color: #fff;
+}
+.form{
+    background:linear-gradient(to left, cyan, white, skyblue, white);
+    border: 10px dashed  red;
+    color: red;
+    font-size: 20px;
+    width: 450px;
+    height: 700px;     
+    box-sizing: border-box;
+    margin-left: 50%;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.menu{
+    border: 8px solid red;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    font-style: italic;
+    margin-left: 30%;
+    margin-top: 150px;
+}
+.hr{
+    color: grey;
+}
+.main{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap: 40px;
+}
+.h{
+    font-size: 35px;
+}
+.start{
+    border: 2px solid green;
+    border-radius: 30px;
+    background: linear-gradient(to left, cyan, white, skyblue, lightblue, white);
+    width: 350px;
+    height: 300px;
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+
+}
